@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+
+header {
+  background: #003366;
+  color: white;
+  padding: 10px 0;
+}
+
+header h2 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+.Container-head {
+  background: #526784;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+   background-image: url("https://herald.com.hk/wp-content/uploads/2021/01/2-e1611649910455.png");
+}
+
+.Container-head h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.Container-head p {
+  font-size: 18px;
+}
+
+
+.services {
+  padding: 40px 0;
+  background: #fff;
+}
+.service-grid img {
+  width: 100%;
+  height: auto;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.why-us {
+  background: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+.why-us ul {
+  list-style: none;
+  margin-top: 20px;
+}
+.why-us li {
+  padding: 10px 0;
+  font-size: 1.1em;
+}
+
+
+.testimonials {
+  background: #003366;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+.testimonials blockquote {
+  margin: 20px auto;
+  max-width: 700px;
+  font-style: italic;
+  border-left: 5px solid #ff9933;
+  padding-left: 15px;
+}
+
+
+
+
+footer {
+  background: #004466;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <div class="container">
+      <h2>CNVITS Consultancy Services</h2>
+    </div>
+    <div>
+      <nav>
+        <a href="homepage.html">Home</a>
+        <a href="careers.html">careers</a>
+        <a href="services.html">Services</a>
+        <a href="aboutus.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="newsroom.html">News Room</a>
+        <a href="login.html">Login</a>
+        <a href="reg.html">Registration</a>
+      </nav><br>
+    </div>
+  </header>
+
+  
+  <section class="Container-head" id="home">
+    <div class="container">
+        
+      <h2>Your Business Growth Partner</h2>
+      <p>We help you achieve success through expert consulting services.</p>
+    </div>
+  </section>
+
+  
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPSd7ch0W2j001PCfqNims5ik4TZDGR_wF_qGMrFmEBwYd3a-xBrNez7TJj9ETZI2CZBc&usqp=CAU" alt="business">
+          <h3>Business Strategy</h3>
+          <p>We help craft data-driven strategies for business growth.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://www.shutterstock.com/image-photo/finance-banking-investment-asset-allocation-260nw-2467052941.jpg" alt="financialplanning">
+          <h3>Financial Planning</h3>
+          <p>Smart solutions for managing and forecasting financial success.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxV6Be0CoMhGgtgg1Bs3-FQ55rQJOJRbJ3Xw&s" alt="Itconsulting">
+          <h3>IT Consulting</h3>
+          <p>Boost your technology infrastructure for better efficiency.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03mANyri6YaG23P_L_FpYTCxnLumHG06sNw&s" alt="marketingconsulting">
+          <h3>Marketing Consulting</h3>
+          <p>Effective campaigns and brand strategies tailored for you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="why-us">
+    <div class="container">
+      <h2>Why Choose Us</h2>
+      <ul>
+        <li>✔ Customized solutions tailored to your business.</li>
+        <li>✔ Expert consultants with global experience.</li>
+        <li>✔ Proven track record of success.</li>
+        <li>✔ Transparent and ethical practices.</li>
+      </ul>
+    </div>
+  </section>
+
+  
+  <section class="testimonials">
+    <div class="container">
+      <h2>Client Testimonials</h2>
+      <blockquote>
+        "They helped us increase our revenue by 40% within 6 months. Amazing team and deep expertise!"<br>
+        – Sarah K., CEO of FinTech Co.
+      </blockquote>
+      <blockquote>
+        "Their financial advisory service helped us restructure and save millions. Highly recommended."<br>
+        – Michael R., CFO of Retail Group
+      </blockquote>
+    </div>
+  </section>
+  
+
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 CNVITS Consultancy Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
